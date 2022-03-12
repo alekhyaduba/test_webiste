@@ -75,7 +75,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'cameron_database',
+        'USER': 'pgadmin',
+        'PASSWORD': 'pgadmin777',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
