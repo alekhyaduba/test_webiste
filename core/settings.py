@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cv_db',
-        'USER': 'pgadmin',
-        'PASSWORD': 'pgadmin',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'daqa8pfnn7t9pe',
+        'USER': 'racxrxearmijgj',
+        'PASSWORD': '0a3dae65962f3722d039e82459a58d555afe6f9905a76e601f3b3b249d194f04',
+        'HOST': 'ec2-3-209-61-239.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 db_from_env = dj_database_url.config(conn_max_age=600)
